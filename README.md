@@ -18,3 +18,22 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## R Script Description
+
+### Guide to create the tidy data file
+1. Download project data from here: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+2. Create a folder which you will set as the working directory and will place the relevant files in
+3. Extract the following files from the zip folder into your working directory folder: "activity_labels.txt" "features.txt" "subject_test.txt" "subject_train.txt" "X_test.txt" "X_train.txt" "y_test.txt" "y_train.txt"
+4. Run the run_analysis.R which will output the tidy data as a txt file
+5. Congrats you're done!
+
+### Proccessing of the data
+The script takes the following steps:
+1) Merging train and test data sets
+2) Adding "id" and "activity" variables from external files
+3) Filtering for only the mean and standard deviation variables 
+4) Adding the header with variable names to the dataset
+5) Creating a summary dataframe with the averages of each variable by id and then activity
+6) Tidying the variable names and factor names by making them lowercase, removing dots or dashes and expanding abbreviations
+7) Create txt file with final tidy summary table
