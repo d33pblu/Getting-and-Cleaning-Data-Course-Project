@@ -103,6 +103,7 @@ The script takes the following steps:
 Dimensions of the dataset: 180 X 68
 
 Variables present in the dataset: 
+
  [1] "id"                                                          "activity"                                                   
  [3] "timebodyaccelerationmeanx"                                   "timebodyaccelerationmeany"                                  
  [5] "timebodyaccelerationmeanz"                                   "timebodyaccelerationstandarddeviationx"                     
