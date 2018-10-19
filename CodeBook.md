@@ -101,6 +101,7 @@ The script takes the following steps:
 
 ## Description of the tidy_data.txt file
 Dimensions of the dataset: 180 X 68
+
 Variables present in the dataset: 
  [1] "id"                                                          "activity"                                                   
  [3] "timebodyaccelerationmeanx"                                   "timebodyaccelerationmeany"                                  
