@@ -1,4 +1,4 @@
-#Project Codebook
+# Project Codebook
 
 ## Codebook Description
 This codebook accompanies the "Getting and Cleaning Data" course project in which we tidy data from the Human Activity Recognition database.
