@@ -87,9 +87,9 @@ Dimensions of the dataset: 180 X 68
 
 New Variables:
 
-*id: ties the observation to one of the 30 experiment subjects
+* id: ties the observation to one of the 30 experiment subjects
 
-*activity: describes which of the six possible activities this obseraction represents
+* activity: describes which of the six possible activities this obseraction represents
 
 Variables present in the dataset: 
 
