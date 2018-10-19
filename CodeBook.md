@@ -81,9 +81,15 @@ Activity Labels
 6 LAYING
 
 ## Description of the tidy_data.txt file
-The major point of difference between the tidy and raw datasets is that every observation represents the average of that variable per id, per activity
+The major point of difference between the tidy and raw datasets is the new merged variables and that every observation represents the average of that variable per id, per activity
 
 Dimensions of the dataset: 180 X 68
+
+New Variables:
+
+*id: ties the observation to one of the 30 experiment subjects
+
+*activity: describes which of the six possible activities this obseraction represents
 
 Variables present in the dataset: 
 
